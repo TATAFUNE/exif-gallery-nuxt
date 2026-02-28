@@ -13,7 +13,7 @@
   "r2_buckets": [
     {
       "binding": "BLOB",
-      "bucket_name": "exif-gallery-nuxt"
+      "bucket_name": "himiko"
     }
   ],
   "d1_databases": [
