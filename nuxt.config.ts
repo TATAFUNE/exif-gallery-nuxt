@@ -73,9 +73,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      title: process.env.NUXT_PUBLIC_TITLE,
-      description: process.env.NUXT_PUBLIC_DESCRIPTION,
-      disable3DCardDefault: process.env.NUXT_PUBLIC_DISABLE_3D_CARD_DEFAULT,
+      title: "HIMIKO",
+      description: "你好，我是火見子，来自中国，常驻日本，希望你喜欢我拍的照片。🌸",
+      disable3DCardDefault: "true",
     },
   },
   i18n: {
