@@ -41,7 +41,7 @@ useSeoMeta({
   description,
   ogDescription: description,
   ogSiteName: title,
-  ogImage: 'https://photo.wiidede.space/exif-gallery-nuxt.jpg',
+  ogImage: '/icon.png',
   twitterCard: 'summary_large_image',
 })
 </script>
