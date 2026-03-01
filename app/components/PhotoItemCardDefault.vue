@@ -14,10 +14,9 @@ defineProps<{
 <template>
   <div
     :class="[
-      fullscreen ? 'h-dvh w-dvw' : 'max-h-[calc(100dvh-5rem)]',
+      fullscreen ? 'h-dvh w-dvw' : 'w-full h-auto',
       mini ? 'h-full' : 'w-full',
     ]"
-    :style="{ aspectRatio: !mini && photo?.aspectRatio || undefined }"
   >
     <picture v-if="photo">
       <source v-if="photo.avif" :srcset="`/photos/${photo.avif}`" type="image/avif">
