@@ -16,7 +16,7 @@
 
 ---
 
-![exif-gallery-nuxt](./public/exif-gallery-nuxt.jpg)
+![exif-gallery-nuxt](./public/icon.png)
 
 ## ✨ 功能特性
 
